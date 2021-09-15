@@ -1,0 +1,30 @@
+.sliderContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+ // height: 630px;
+ // position: relative;
+}
+
+.slider {
+  padding-top: 10px;
+  width: 1110px;
+  z-index: 1;
+}
+
+.titleSlider {
+
+
+  justify-content: flex-end;
+  height: 150px;
+  width: 970px;
+  background: #a6cf39;
+
+}
+
+.bottomBorder{
+  width: 1510px;
+  height: 8px;
+  background: grey;
+
+}

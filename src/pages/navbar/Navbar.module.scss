@@ -1,0 +1,57 @@
+.navbar {
+  width: 100%;
+  background-color: #a6cf39;
+  height: 72px;
+
+  .navbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    a {
+      padding: 30px;
+      font-size: 10px;
+      font-weight: 400;
+      cursor: pointer;
+      color: white;
+
+      &:hover {
+        background: grey;
+      }
+
+      .active {
+        background: grey;
+      }
+    }
+  }
+
+  .input {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    max-width: 645px;
+    background: grey;
+
+    ::-webkit-input-placeholder {
+      color: #fdfdfd;
+      opacity: 1;
+    }
+
+    input {
+      margin-left: 20px;
+      color: white !important;
+      border: none;
+      background: grey;
+    }
+
+    .icon {
+      color: white;
+      font-size: 30px;
+      padding: 20px;
+    }
+
+
+  }
+}
+
+

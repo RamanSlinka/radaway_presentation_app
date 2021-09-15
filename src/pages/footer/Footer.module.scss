@@ -1,0 +1,13 @@
+.footer{
+  background: #e6e7e9 ;
+  height: 80px;
+}
+
+.footerContainer{
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .rightDescription{
+    text-align: right;
+  }
+}

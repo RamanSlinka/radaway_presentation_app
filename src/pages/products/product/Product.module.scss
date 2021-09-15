@@ -1,0 +1,56 @@
+.titleContainer{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+
+  .titleProduct{
+    width: 1130px;
+    height: 100px;
+    background: grey;
+    margin-right: 40px;
+  }
+
+  .linkFB{
+    height: 100px;
+    background: #a6cf39;
+    width: 340px;
+    justify-content: right;
+  }
+}
+
+
+.ProductContainer{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  margin-top: 35px;
+  margin-right: 40px;
+
+  .imageContainer {
+    width: 340px;
+    height: 195px;
+  }
+
+  .title {
+    color: #a6cf39;
+    font-size: 15px;
+    margin-top:  40px;
+  }
+  .description{
+    margin: 35px 0 35px;
+  }
+}
+
+
+
+
+

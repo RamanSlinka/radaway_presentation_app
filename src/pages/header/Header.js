@@ -10,8 +10,9 @@ const Header = () => {
                      alt="Radaway Sp. z o.o." className={style.logo}
                 />
                 <div>
-                    <div></div>
+
                     <div className={style.contact}>
+
                         <ul>
                             <li>RADAWAY SP. Z O.O.</li>
                             <li>ul.Rabowicka 59, 62-020 Jasin</li>
@@ -20,6 +21,7 @@ const Header = () => {
                             <li>email:
                                 <a href="office@radaway.pl" type="email">office@radaway.pl</a></li>
                         </ul>
+                        <div className={style.rightBorder}></div>
                     </div>
                 </div>
             </div>

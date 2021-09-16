@@ -1,31 +1,43 @@
-.navbar {
+.navbarWrapper {
   width: 100%;
   background-color: #a6cf39;
   height: 72px;
+  position: relative;
+
 
   .navbarContainer {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
 
-    a {
-      padding: 30px;
-      font-size: 10px;
-      font-weight: 400;
-      cursor: pointer;
-      color: white;
+    .navbar {
+      z-index: 2;
+      background: #a6cf39;
+      width: 90%;
 
-      &:hover {
-        background: grey;
-      }
+      a {
 
-      .active {
-        background: grey;
+        padding: 0 30px 0;
+        height: 100%;
+        font-size: 15px;
+        font-weight: 400;
+        cursor: pointer;
+        color: white;
+
+        &:hover {
+          background: grey;
+        }
+
+        .active {
+          background: grey;
+        }
       }
     }
+
+
   }
 
-  .input {
+  .inputWrapper {
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -37,21 +49,35 @@
       opacity: 1;
     }
 
-    input {
+    .input {
       margin-left: 20px;
       color: white !important;
       border: none;
-      background: grey;
+      background: #808080;
+      z-index: 2;
     }
 
     .icon {
       color: white;
-      font-size: 30px;
+      font-size: 40px;
       padding: 20px;
+      z-index: 2;
+      // stroke-width: 1px;
+      // width: 40px;
+      // height: 40px;
+      //stroke: #fff;
+      //fill: #fff;
     }
-
-
   }
 }
 
+.rightShadeBorder {
+  background: #808080;
+  height: 72px;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
 

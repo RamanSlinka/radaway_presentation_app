@@ -5,14 +5,14 @@ import Slider from "./pages/slider/Slider";
 import Product from "./pages/products/product/Product";
 import Footer from "./pages/footer/Footer";
 import Products from "./pages/products/Products";
+import MainPage from "./pages/main/MainPage";
 
 function App() {
     return (
         <div className="App">
             <Header/>
             <Navbar/>
-            <Slider/>
-
+            <MainPage/>
             <Products/>
             <Footer/>
         </div>

@@ -1,13 +1,17 @@
-.footer{
-  background: #e6e7e9 ;
+.footer {
+  background: #e6e7e9;
   height: 80px;
+
 }
 
-.footerContainer{
-display: flex;
+.footerContainer {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  .rightDescription{
+  font-size: 10px;
+  align-items: center;
+
+  .rightDescription {
     text-align: right;
   }
 }

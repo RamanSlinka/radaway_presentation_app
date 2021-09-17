@@ -31,3 +31,6 @@ input{
   border-radius: 0;
   box-shadow: none;
 }
+textarea:focus, input:focus{
+  outline: none;
+}

@@ -1,19 +1,20 @@
-import './App.scss';
 import Header from "./pages/header/Header";
 import Navbar from "./pages/navbar/Navbar";
-import Slider from "./pages/slider/Slider";
-import Product from "./pages/products/product/Product";
+import {Route, Switch} from "react-router-dom";
+import Contacts from "./pages/contacts/Contacts";
+import Home from "./pages/Home";
 import Footer from "./pages/footer/Footer";
-import Products from "./pages/products/Products";
-import MainPage from "./pages/main/MainPage";
+import React from "react";
 
 function App() {
     return (
         <div className="App">
             <Header/>
             <Navbar/>
-            <MainPage/>
-            <Products/>
+            <Switch>
+                <Route path={'/'} exact component={Home}/>
+                <Route path={'/contact'} exact component={Contacts}/>
+            </Switch>
             <Footer/>
         </div>
     );

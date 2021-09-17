@@ -17,9 +17,11 @@ const Header = () => {
                             <li>RADAWAY SP. Z O.O.</li>
                             <li>ul.Rabowicka 59, 62-020 Jasin</li>
                             <li>godz. 08:00 - 16:00</li>
-                            <li>tel. 61 835 75 10</li>
+                            <li>tel.
+                                <a href="tel:61 835 75 10">61 835 75 10</a>
+                                </li>
                             <li>email:
-                                <a href="office@radaway.pl" type="email">office@radaway.pl</a></li>
+                                <a href="mialto:office@radaway.pl" type="email">office@radaway.pl</a></li>
                         </ul>
                         <div className={style.rightBorder}></div>
                     </div>

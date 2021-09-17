@@ -19,10 +19,14 @@
 
 .contact {
   display: flex;
-  flex-direction: row ;
+  flex-direction: row;
   text-align: right;
   color: #808080;
   font-size: 10px;
+
+  a:hover {
+  color: #a6cf39;
+  }
 
   .rightBorder {
     background: #808080;

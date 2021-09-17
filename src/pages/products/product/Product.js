@@ -3,9 +3,10 @@ import style from "./Product.module.scss"
 
 const Product = (props) => {
     return (
-        <div className={style.product}>
-            <div className={style.imageContainer}>
-                <img src={props.style} alt="product"/>
+        <div id="product"
+            className={style.product}>
+            <div >
+                <img src={props.style} alt="product" className={style.imageContainer}/>
             </div>
             <h3 className={style.title}>{props.title}</h3>
             <p className={style.description}>

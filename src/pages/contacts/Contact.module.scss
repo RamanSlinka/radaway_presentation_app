@@ -1,0 +1,126 @@
+.ContactsContainer {
+  margin-top: 20px;
+  color: #565656;
+  h1{
+    margin: 0 15px;
+  }
+  .image {
+    margin-top: 10px;
+    width: 1110px;
+  }
+  .dataContactsBlock {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+
+    .dataContactsWrapper {
+      margin: 20px 0 20px;
+      width: 318px;
+
+      span {
+        font-size: 20px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+      }
+
+      p {
+        padding: 10px 0 10px 0;
+      }
+
+      a:hover {
+        color: #a6cf39;
+      }
+    }
+
+    .formWrapper {
+      flex: 0 0 100%;
+
+      position: relative;
+      padding-right: 15px;
+      padding-left: 15px;
+
+      .inputsWrapper {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0 20px;
+
+        h2 {
+          font-size: 19px;
+          font-weight: normal;
+          color: #565656;
+          margin-bottom: 1.2rem;
+          margin-top: 1rem;
+        }
+
+        .inputBlock {
+           flex: 0 0 70%;
+          padding-right: 35px;
+
+          .input {
+            padding: 5px 10px;
+            font-size: 15px;
+            box-sizing: border-box;
+            font-weight: lighter;
+            width: 100%;
+            border: 1px solid #ccc;
+            margin-bottom: 26px;
+          }
+          span {
+            font-size: 0.8em;
+            color: #dc3232;
+            display: block;
+            box-sizing: border-box;
+             ::after, ::before {
+              box-sizing: border-box;
+            }
+          }
+        }
+
+        textarea {
+          padding: 5px 10px;
+          width: 100%;
+          height: 202px;
+          border: 1px solid #ccc;
+          font-weight: lighter;
+        }
+      }
+
+      .checkbox {
+        margin-right: 7px;
+      }
+
+      .submitWrapper {
+        text-align: center;
+        color: #565656;
+        max-width: 100%;
+
+        .submitButton {
+          background: white;
+          margin: 24px 0 24px;
+          padding: 8px 16px;
+          font-weight: bold;
+          &:focus{
+            border: 3px solid #a6cf39;
+          }
+        }
+      }
+
+      .error {
+        border: 1px solid #ffcc00;
+        height: 30px;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+
+

@@ -8,22 +8,22 @@ import image3 from "../../assets/image/item3.png"
 
 const Products = () => {
     return (
-        <div>
+        <>
             <ColorBordersProducts/>
-                <div className={`${styleContainer.container} ${styles.ProductContainer}`}>
+                <section className={`${styleContainer.container} ${styles.ProductContainer}`}>
                     <Product style={image1} title={"KABINY PRZYSZNICOWE"}/>
-                    <Product style={image1} title={"BRODZIKI PRZYSZNICOWE"}/>
-                    <Product style={image1} title={"PARAWANY NAWANNOWE"}/>
-                </div>
+                    <Product style={image2} title={"BRODZIKI PRZYSZNICOWE"}/>
+                    <Product style={image3} title={"PARAWANY NAWANNOWE"}/>
+                </section>
             
-        </div>
+        </>
     );
 };
 
 
 const ColorBordersProducts = () => {
     return (
-        <div className={styles.content}>
+        <section className={styles.content}>
             <div className={styles.leftShadeBorder}></div>
             <div className={`${styleContainer.container} ${styles.titleContainer}`}>
                 <div className={styles.titleProduct}>Nasze produkty:</div>
@@ -32,7 +32,7 @@ const ColorBordersProducts = () => {
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }
 

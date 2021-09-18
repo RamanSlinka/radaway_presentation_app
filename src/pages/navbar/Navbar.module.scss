@@ -1,13 +1,11 @@
 
-
-
 .navbarWrapper {
   width: 100%;
   background-color: #a6cf39;
   height: 72px;
-  position: relative;
-
-
+  position: sticky;
+  z-index: 999;
+  top: 0;
 
   .navbarContainer {
     display: flex;
@@ -19,25 +17,27 @@
       background: #a6cf39;
       width: 860px;
 
+
       display: flex;
 
 
       a {
+        display: flex;
+        align-items: center;
         padding: 0 30px 0;
         height: 100%;
         font-size: 15px;
         font-weight: 400;
         cursor: pointer;
         color: white;
-        @media screen and (width: 905px) {
+        @media screen and (max-width: 905px) {
           padding: 0 10px 0;
+        } @media screen and (max-width: 607px) {
+          padding: 0 5px 0;
+        font-size: 13px;
         }
 
         &:hover {
-          background: grey;
-        }
-
-        .active {
           background: grey;
         }
       }
@@ -50,7 +50,6 @@
     display: flex;
     flex-direction: row;
     height: 100%;
-  //  width: 250px;
     background: grey;
 
     ::-webkit-input-placeholder {
@@ -60,10 +59,14 @@
 
     .input {
       margin-left: 20px;
-      color: white ;
+      color: white;
       border: none;
       background: #808080;
       z-index: 2;
+      @media screen and (max-width: 607px) {
+        font-size: 13px;
+        margin: 0;
+      }
     }
 
     .icon {
@@ -71,7 +74,10 @@
       font-size: 40px;
       padding: 13px;
       z-index: 2;
+      @media screen and (max-width: 665px) {
+        font-size: 30px;
 
+      }
     }
   }
 }

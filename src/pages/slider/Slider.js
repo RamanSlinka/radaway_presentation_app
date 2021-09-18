@@ -9,13 +9,13 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     src={slider}
-                    alt="First slide"
+                    alt="Kabiny przysznicowe"
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     src={slider2}
-                    alt="Second slide"
+                    alt="Kabiny przysznicowe"
                 />
             </Carousel.Item>
         </Carousel>

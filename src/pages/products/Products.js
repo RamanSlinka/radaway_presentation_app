@@ -15,7 +15,6 @@ const Products = () => {
                     <Product style={image2} title={"BRODZIKI PRZYSZNICOWE"}/>
                     <Product style={image3} title={"PARAWANY NAWANNOWE"}/>
                 </section>
-            
         </>
     );
 };
@@ -28,7 +27,8 @@ const ColorBordersProducts = () => {
             <div className={`${styleContainer.container} ${styles.titleContainer}`}>
                 <div className={styles.titleProduct}>Nasze produkty:</div>
                 <div className={styles.linkFB}>
-                    <a href="https://www.facebook.com/radawaypl/" target="blank" className={styleContainer.container}>Znajdź nas na FB >></a>
+                    <a href="https://www.facebook.com/radawaypl/" target="blank" className={styleContainer.container}
+                    >Znajdź nas na FB >></a>
                 </div>
             </div>
 

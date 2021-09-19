@@ -5,19 +5,14 @@ import {IoSearchOutline} from "react-icons/all";
 import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
-
     const [value, setValue] = useState('')
-
     const getInputValue = (e) => {
         setValue(e.currentTarget.value)
     }
 
-
     const showInputValue = (event) => {
         if (event.key === 'Enter') {
-
             alert(value)
-            console.log('do validate')
             setValue('')
         }
     }
@@ -40,7 +35,6 @@ const Navbar = () => {
                     <input type="text" placeholder="Wyszukaj na stronie..."
                            className={style.input}
                            onKeyPress={showInputValue}
-                        // onClick={inputValue}
                            onChange={getInputValue}
                            value={value}
                     />

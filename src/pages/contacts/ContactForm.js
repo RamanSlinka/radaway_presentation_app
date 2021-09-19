@@ -32,11 +32,10 @@ const ContactForm = () => {
             }
             if (values.textarea.length < 1) {
                 errors.textarea = 'Wymagane jest wypełnienie tego';
-            } else if (values.checkbox === false) {
+            }
+            if (!values.checkbox) {
                 errors.checkbox = 'Wymagane jest wypełnienie tego';
             }
-
-
             return errors;
         },
         onSubmit: values => {
@@ -84,41 +83,37 @@ const ContactForm = () => {
                                    type="tel"
                                    {...formik.getFieldProps('tel')}
                             />
-
                         </div>
-
                         <input className={styles.input}
                                placeholder="Firma"
                                type="text"
                                {...formik.getFieldProps('text')}
                         />
                     </div>
-
                     <div className={styles.singleInputWrapper}>
-                         <textarea placeholder="Treść wiadomości"
+                         <textarea placeholder="Treść wiadomości*"
                                    {...formik.getFieldProps('textarea')}
                          ></textarea>
-
-
+                        {formik.touched.textarea && formik.errors.textarea &&
+                        <span className={styles.inputError} style={{top: "80px"}}>{formik.errors.textarea}</span>}
                     </div>
                 </div>
-
                 <div>
                     <input
                         className={styles.checkbox}
                         type="checkbox"
                         {...formik.getFieldProps('checkbox')}/>
-                    {!formik.touched.checkbox && formik.errors.checkbox &&
-                    <span style={{'color': 'red'}}>{formik.errors.checkbox}</span>}
-                    <>Wyrażam zgodę na przetwarzanie moich danych osobowych przez Radaway sp. z o.o., ul. Rabowicka 59,
+
+                    <span>Wyrażam zgodę na przetwarzanie moich danych osobowych przez Radaway sp. z o.o., ul. Rabowicka 59,
                         62-020 Jasin zawartych w formularzu kontaktowym w celu udzielenia odpowiedzi na zapytanie.
                         Jednocześnie oświadczam, że zapoznałam/em się z klauzulą informacyjną.
-                    </>
-
+                    </span>
+                    {formik.touched.checkbox && formik.errors.checkbox &&
+                    <span
+                        style={{'color': 'red', fontSize: "10px", paddingLeft: "20px"}}>{formik.errors.checkbox}</span>}
                 </div>
                 <div className={styles.submitWrapper}>
                     <input
-
                         className={styles.submitButton}
                         type="submit"
                         value="Wyślij wiadomość"

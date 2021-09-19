@@ -16,11 +16,7 @@
       z-index: 2;
       background: #a6cf39;
       width: 860px;
-
-
       display: flex;
-
-
       a {
         display: flex;
         align-items: center;
@@ -32,18 +28,16 @@
         color: white;
         @media screen and (max-width: 905px) {
           padding: 0 10px 0;
-        } @media screen and (max-width: 607px) {
-          padding: 0 5px 0;
-        font-size: 13px;
         }
-
+        @media screen and (max-width: 607px) {
+          padding: 0 5px 0;
+          font-size: 13px;
+        }
         &:hover {
           background: grey;
         }
       }
     }
-
-
   }
 
   .inputWrapper {

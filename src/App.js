@@ -16,7 +16,7 @@ function App() {
             <Header/>
             <Navbar/>
             <Switch>
-                <Route path={'/'} exact component={Home}/>
+                <Route path={'/radaway_presentation_app'} exact component={Home}/>
                 <Route path={'/producty'} exact component={ProductsGlobal}/>
                 <Route path={'/serie'} exact component={Series}/>
                 <Route path={'/do-pobrania'} exact component={LinksForDownload}/>

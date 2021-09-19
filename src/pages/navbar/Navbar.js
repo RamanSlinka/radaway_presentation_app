@@ -23,13 +23,13 @@ const Navbar = () => {
             <div className={`${styleContainer.container} ${style.navbarContainer}`}>
                 <nav className={style.navbar}>
 
-                    <NavLink to="/" exact
+                    <NavLink to="/radaway_presentation_app" exact
                     >Start</NavLink>
-                    <NavLink to="/producty">Produkty</NavLink>
-                    <NavLink to="/serie">Serie</NavLink>
-                    <NavLink to="/do-pobrania">Pliki do pobanija</NavLink>
-                    <NavLink to="/servis">Serwis</NavLink>
-                    <NavLink to="/contact">Kontakt</NavLink>
+                    <NavLink to="/producty" exact>Produkty</NavLink>
+                    <NavLink to="/serie" exact>Serie</NavLink>
+                    <NavLink to="/do-pobrania" exact>Pliki do pobanija</NavLink>
+                    <NavLink to="/servis" exact>Serwis</NavLink>
+                    <NavLink to="/contact" exact>Kontakt</NavLink>
                 </nav>
                 <div className={style.inputWrapper}>
                     <input type="text" placeholder="Wyszukaj na stronie..."

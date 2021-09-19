@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/radaway_presentation_app/static/css/main.95f4ffee.chunk.css",
+    "main.js": "/radaway_presentation_app/static/js/main.642b1325.chunk.js",
+    "main.js.map": "/radaway_presentation_app/static/js/main.642b1325.chunk.js.map",
+    "runtime-main.js": "/radaway_presentation_app/static/js/runtime-main.9a29241d.js",
+    "runtime-main.js.map": "/radaway_presentation_app/static/js/runtime-main.9a29241d.js.map",
+    "static/js/2.4c303a41.chunk.js": "/radaway_presentation_app/static/js/2.4c303a41.chunk.js",
+    "static/js/2.4c303a41.chunk.js.map": "/radaway_presentation_app/static/js/2.4c303a41.chunk.js.map",
+    "static/js/3.f9a334a5.chunk.js": "/radaway_presentation_app/static/js/3.f9a334a5.chunk.js",
+    "static/js/3.f9a334a5.chunk.js.map": "/radaway_presentation_app/static/js/3.f9a334a5.chunk.js.map",
+    "index.html": "/radaway_presentation_app/index.html",
+    "static/css/main.95f4ffee.chunk.css.map": "/radaway_presentation_app/static/css/main.95f4ffee.chunk.css.map",
+    "static/js/2.4c303a41.chunk.js.LICENSE.txt": "/radaway_presentation_app/static/js/2.4c303a41.chunk.js.LICENSE.txt",
+    "static/media/Do_pobrania.2352fffe.png": "/radaway_presentation_app/static/media/Do_pobrania.2352fffe.png",
+    "static/media/ProductsGlobal1.73a29424.png": "/radaway_presentation_app/static/media/ProductsGlobal1.73a29424.png",
+    "static/media/Seria.9cef755e.png": "/radaway_presentation_app/static/media/Seria.9cef755e.png",
+    "static/media/Servis.809c4110.png": "/radaway_presentation_app/static/media/Servis.809c4110.png",
+    "static/media/central_big.62ed295c.jpg": "/radaway_presentation_app/static/media/central_big.62ed295c.jpg",
+    "static/media/item1.9be9b0db.png": "/radaway_presentation_app/static/media/item1.9be9b0db.png",
+    "static/media/item2.d4526482.png": "/radaway_presentation_app/static/media/item2.d4526482.png",
+    "static/media/item3.41e04ccc.png": "/radaway_presentation_app/static/media/item3.41e04ccc.png",
+    "static/media/slider.1636fdab.png": "/radaway_presentation_app/static/media/slider.1636fdab.png",
+    "static/media/slider2.5b88802e.png": "/radaway_presentation_app/static/media/slider2.5b88802e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a29241d.js",
+    "static/js/2.4c303a41.chunk.js",
+    "static/css/main.95f4ffee.chunk.css",
+    "static/js/main.642b1325.chunk.js"
+  ]
+}

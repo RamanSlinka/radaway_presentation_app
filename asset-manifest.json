@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/radaway_presentation_app/static/css/main.b6983517.chunk.css",
-    "main.js": "/radaway_presentation_app/static/js/main.22463cfd.chunk.js",
-    "main.js.map": "/radaway_presentation_app/static/js/main.22463cfd.chunk.js.map",
+    "main.js": "/radaway_presentation_app/static/js/main.dc16d18d.chunk.js",
+    "main.js.map": "/radaway_presentation_app/static/js/main.dc16d18d.chunk.js.map",
     "runtime-main.js": "/radaway_presentation_app/static/js/runtime-main.9a29241d.js",
     "runtime-main.js.map": "/radaway_presentation_app/static/js/runtime-main.9a29241d.js.map",
     "static/js/2.4c303a41.chunk.js": "/radaway_presentation_app/static/js/2.4c303a41.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.9a29241d.js",
     "static/js/2.4c303a41.chunk.js",
     "static/css/main.b6983517.chunk.css",
-    "static/js/main.22463cfd.chunk.js"
+    "static/js/main.dc16d18d.chunk.js"
   ]
 }

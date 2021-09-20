@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header className={style.header}>
             <div className={`${styleContainer.container} ${style.headerContainer}`}>
-                <NavLink to={"/"}>
+                <NavLink to={"/radaway_presentation_app"}>
                     <img src="https://www.radaway.pl/wp-content/themes/radaway_v2/images/main/LOGO-01.svg"
                          alt="Logo of company Radaway" className={style.logo}
                     />
